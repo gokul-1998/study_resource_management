@@ -1,0 +1,121 @@
+[
+  {
+    "_id": "2f44e6a6-2f06-49a6-81bb-96eb54030ba2",
+    "colId": "d9eb3ada-cffc-4600-8ff4-d545c063e581",
+    "containerId": "",
+    "name": "create_study_resource",
+    "url": "http://127.0.0.1:5000/api/study_material",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-10-09T13:49:25.556Z",
+    "modified": "2023-10-16T12:41:54.196Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"topic\": \"MAD1 Lecture1\",\n  \"description\": \"Description for mad1\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "fe5a54cc-0d5f-4767-9073-3078ac959c24",
+    "colId": "d9eb3ada-cffc-4600-8ff4-d545c063e581",
+    "containerId": "",
+    "name": "get_study_resource",
+    "url": "http://127.0.0.1:5000/api/study_material",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-10-09T14:11:14.079Z",
+    "modified": "2023-11-06T13:37:24.800Z",
+    "headers": [
+      {
+        "name": "Authentication-Token",
+        "value": "WyJkOTQ0ZGNlMjUyNDU0NzUxOGQ4MGZhYzY1NzU0NTJjMCJd.ZUjsAQ.7VxGa5pZBnXPDbHqMRi_ozs7psc"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\":\"admin@email.com\",\n  \"password\": \"admin\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "114728e6-a75e-492c-91b9-16bb1e693ecd",
+    "colId": "d9eb3ada-cffc-4600-8ff4-d545c063e581",
+    "containerId": "",
+    "name": "login",
+    "url": "http://127.0.0.1:5000/user-login",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2023-10-16T07:09:09.020Z",
+    "modified": "2023-11-06T13:37:05.667Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\":\"admin@email.com\",\n  \"password\":\"admin\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b747e51c-0ce4-4022-95c6-e60ca7729339",
+    "colId": "d9eb3ada-cffc-4600-8ff4-d545c063e581",
+    "containerId": "",
+    "name": "admin",
+    "url": "http://127.0.0.1:5000/admin",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2023-10-16T07:34:16.260Z",
+    "modified": "2023-10-25T13:02:21.868Z",
+    "headers": [
+      {
+        "name": "Authentication-Token",
+        "value": "WyJmOGM0ZWVjYzVmZTM0ZmEzYmQ0ZGRkMWYyNjUxM2E2YiJd.ZTkRaA.0Ocj-FHwg_pvzk1GSr5r4igUbPc"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "4f9574d8-b1dd-4eb0-a70a-8413f7896794",
+    "colId": "d9eb3ada-cffc-4600-8ff4-d545c063e581",
+    "containerId": "",
+    "name": "activate_inst",
+    "url": "http://127.0.0.1:5000/activate/inst/2",
+    "method": "GET",
+    "sortNum": 60000,
+    "created": "2023-10-16T14:22:48.124Z",
+    "modified": "2023-10-16T14:24:13.496Z",
+    "headers": [
+      {
+        "name": "Authentication-Token",
+        "value": "WyI1MDE0MGEwZDYxMmI0NWExYTliYjIzMjgxYTI5MDE4MiJd.ZS1HGQ.OXQUrpm9Wzam9vny3BV17swIh1g"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "4cb0688e-6b2f-4d00-aae9-652dce32f339",
+    "colId": "d9eb3ada-cffc-4600-8ff4-d545c063e581",
+    "containerId": "",
+    "name": "user-login",
+    "url": "http://127.0.0.1:5000/user-login",
+    "method": "POST",
+    "sortNum": 70000,
+    "created": "2023-10-25T12:57:39.452Z",
+    "modified": "2023-10-25T12:58:32.787Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"admin@email.com\",\n  \"password\": \"admin\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
