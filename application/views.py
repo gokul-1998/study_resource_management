@@ -85,6 +85,7 @@ def resource(id):
 
 @app.get('/download-csv')
 def csv_download():
+    import time 
     task = create_resource_csv.delay()
     return jsonify({"task-id": task.id})
 

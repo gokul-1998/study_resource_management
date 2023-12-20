@@ -34,7 +34,7 @@ study_material_fields = {
 
 class StudyMaterial(Resource):
     @auth_required("token")
-    @cache.cached(timeout=50)
+    @cache.cached(timeout=10)
     def get(self):
         if "inst" in current_user.roles:
             study_resources = StudyResource.query.all()
